@@ -4,18 +4,19 @@ import Milky from '../assets/milky.jpg'
 import {Link} from 'react-scroll'
 import { Helmet } from 'react-helmet';
 
+
 const home = () => {
   
   return (
     
     
-    <div name ='home' className='back-home w-full h-screen bg-[#0a192f]' 
-      style={{backgroundImage:`linear-gradient(rgba(10, 25, 47, 0.3), rgba(10, 25, 47, 0.9)),url(${Milky})`,backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat',
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center'}}>
+    <div name ='home' className='back-home w-full h-screen bg-[#0a192f]' style={{backgroundImage:`linear-gradient(rgba(10, 25, 47, 0.4), rgba(10, 25, 47, 0.9)),url(${Milky})`,backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center'}}
+      >
 <div>
       <Helmet>
         <title>Ashish Upadhyay</title>
@@ -45,6 +46,7 @@ const home = () => {
         </div>
       </div>
     </div>
+    
   )
 }
 
